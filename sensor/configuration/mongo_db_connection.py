@@ -1,6 +1,6 @@
 import pymongo
 from sensor.constant.database import DATABASE_NAME
-from certifi
+import certifi
 ca = certifi.where()
 class MongoDBClient:
     client = None
